@@ -6,23 +6,24 @@ language: "" # language to set into html tag, default is en
 
 # User settings
 
-author: Wendell Adriel
+author: José Ribamar  Alvino JR
 author-title: Full Stack Developer
-gravatar: d36a082aacb53b6f76869748fb4b81d4
-email: wendelladriel.ti@gmail.com
-twitter: wendell_adriel
-github: WendellAdriel
-googleplus: +WendellAdriel
-facebook: wendell.adriel.7
-linkedin: wendelladrielti/en
-bio: "Brazilian developer. Game, music and technology lover.
-      I graduated in Systems Analysis and Development. I'm a Zend Certified PHP Engineer and Scrum Fundamentals Certified. I love to study and learn new skills,
-      exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with Web Development since 2009 and with
-      Mobile Development since 2015 as Freelancer and in some Brazilian companies too.
-      I'm the creator of CodeShare, a free portal with articles, videos, etc, about Software Development. The purpose of this project is to help people who want
-      to learn about Software Development and start their careers in IT area and to help people that already work with Software Development to improve their
-      technical knowledge to get better job opportunities.
+#gravatar: d36a082aacb53b6f76869748fb4b81d4
+email: ribamar.alvino@gmail.com
+#twitter: 
+#github: 
+googleplus: +ribamar.alvino
+facebook: ribamar.alvino
+linkedin: josé-r-alvino-31156b21
+bio: "Brazilian Architect & Developer. Food, music, arts and technology lover.
+      I'm a Bachelor Degree in Business Administration. 
+	  I'm a Microsoft Application Developer Certified (MCAD), IBM Certified Specialist (IMB-CP) - Software Quality, Motorola RFID Solutions Certified.
+	  ISO 27001 Certified, Certified Security Officer (MCSO), Developer Security Software Specialist, MSDN Brazil Five Stars Developer
+	  I love to study and learn new skills, exchange work and study experience with people around me and share my knowledge with the ones that want it. I work with Web Development since 1993 and with
+      Mobile Development since 2014 as Freelancer and in some Brazilian companies too.
+      For now, woring for big and small companies in Brazil developing great enterpprise projects with modern UI frameworks and infratructure solutions. 
       I like to work with both: Front-End and Back-End development. I work with many languages, frameworks and technologies."
+      I always worked with developer and IT (Servers, Ethernet, LAN, WAN, Switches, Database, Storage NAS, SAS), Virtulization, Security, Criptography, TCP/IP ."
 
 # Skills
 #
@@ -46,83 +47,114 @@ front-end:
   - name: jQuery
     level: 4
   - name: Angular
-    level: 4
-  - name: Vue.js
-    level: 2
+    level: 3
   - name: Bootstrap
     level: 4
-  - name: Materialize CSS
-    level: 5
-  - name: LESS
-    level: 3
-  - name: SASS
-    level: 3
-  - name: Stylus
-    level: 4
-  - name: Gulp
-    level: 4
-  - name: Grunt
-    level: 3
-  - name: Bower
-    level: 3
 
 back-end:
-  - name: PHP
+   - Web API 2
+    level: 4
+  - Asp.net MVC 5
+    level: 4
+	 - LINQ
+    level: 4
+  - name: C#
     level: 5
   - name: Node.js
     level: 3
-  - name: Ruby
-    level: 2
-  - name: Python
-    level: 2
-  - name: Java
+  - name: C++
+    level: 3
+  - name: C
+    level: 3
+  - name: Delphi
     level: 4
-  - name: COBOL
-    level: 2
+  - name: VB6
+    level: 4
+  - name: VB.Net
+    level: 3
   - name: SQL
     level: 4
-  - name: Lua
-    level: 2
+  - name: Transact SQL
+    level: 4
+  - name: PL/SQL
+    level: 4
+  - name: WCF
+    level: 4
+  - Sharepoint 2010
+    level: 4
+  - Sharepoint 2013
+    level: 4
+  - name: MS Project Server
+    level: 4
+ 
 
 mobile:
-  - name: Android
+  - name: Android (MS Visual Studio 2015)
     level: 2
-  - name: Apache Cordova
+  - name: Apache Cordova (MS Visual Studio 2015)
+    level: 2
+  - name: Xamarin (MS Visual Studio 2015)
+    level: 2
+	- name: Arduino
     level: 4
-  - name: Ionic
+  - name: GPS
     level: 4
-  - name: NativeScript
+	- name: GPRS/GSM
     level: 3
-
 db:
-  - name: MySQL
+ - name: SQL Azure 
+    level: 4 
+- name: MySQL
     level: 4
   - name: PostgreSQL
-    level: 3
+    level: 4
   - name: MongoDB
     level: 4
   - name: SQL Server
-    level: 2
+    level: 4
   - name: Oracle
-    level: 3
-  - name: Firebase
+    level: 4
+  - name: Firebird
     level: 3
   - name: NoSQL
+    level: 3
+- name: Couch Base
+    level: 3
+- name: SQLite
     level: 4
 
-devops:
-  - name: Docker
-    level: 3
-  - name: Vagrant
-    level: 3
-  - name: Jenkins
-    level: 1
-  - name: Git
+Infrastructure:
+  - name: Amazon Web Services
+    level: 4
+	  - name: Windows Azure
+    level: 4
+  - name: Windows Servers
     level: 5
-  - name: Apache Maven
+  - name: Linux
+    level: 3
+  - name: Hyper-V
+    level: 3
+  - name: VMWare ESX
+    level: 4
+  - name: VirtualBox
+    level: 5
+	- name: TCP/IP
+    level: 5
+	- name: Active Directory/DNS/DHCP/SMTP/IMAP/POP
+    level: 5
+	- name: Digital Certificates (PKI)
+    level: 4
+	- name: IIS
+    level: 5
+	
+
+devops:
+  - name: TFS
+    level: 4
+  - name: Git
     level: 3
   - name: Continuous Integration
-    level: 3
+    level: 2
   - name: Continuous Delivery
     level: 2
 
@@ -130,37 +162,31 @@ methodologies:
   - name: Agile Methodologies
     level: 3
   - name: Scrum
-    level: 4
-  - name: RUP
     level: 3
+  - name: RUP
+    level: 4
 
 others:
-  - name: Web Services
+  - name: Web Services SOAP
     level: 5
   - name: REST
     level: 5
-  - name: JEE, JSF, JPA, EJB, CDI
-    level: 3
-  - name: iReport, Jasper Reports
-    level: 2
-  - name: Hibernate
-    level: 3
-  - name: Grails
-    level: 2
-  - name: Symfony
-    level: 3
-  - name: Twig
+  - name: Entity Framework
     level: 4
-  - name: Doctrine ORM
+  - name: Visual Studio
+    level: 4
+  - name: NHibernate
     level: 3
-  - name: Laravel, Blade, Eloquent ORM
+  - name: MVC
+    level: 4
+  - UML
+    level: 4
+  - BPM
+    level: 4 
+  - GED/ECM
     level: 5
-  - name: Ruby on Rails
-    level: 3
-  - name: MEAN Stack
-    level: 4
-  - name: Spring
-    level: 3
+	  - RFID
+    level: 4  
 
 # Build settings
 
